@@ -1,0 +1,30 @@
+# 依赖文件夹 (由 npm install 或 yarn install 自动生成)
+node_modules/
+
+# 配置文件 (包含敏感密钥，绝对不能上传到 GitHub)
+# 您应该只提交一个 config.env.example 作为模板
+config.env
+
+# 运行时生成的缓存和数据文件
+# 这些文件由程序在运行时动态创建和修改
+imagebase64.json
+Weather.txt
+*.表情包.txt
+dailynote/
+
+# 日志文件 (如果将来应用开始生成日志文件)
+*.log
+logs/
+
+# 操作系统和 IDE 自动生成的临时文件或配置
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 构建输出目录 (如果将来项目有编译/构建步骤)
+dist/
+build/
